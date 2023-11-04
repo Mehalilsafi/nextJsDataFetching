@@ -6,7 +6,7 @@ import React from 'react'
 import {getspeacial} from "@/lib/getspeacial"
 import style from "./style.css"
 export default async function page({params}) {
-    let{id} =params; 
+    let {id} =params; 
     let res=  await getspeacial(id);
     return (
       <main>
