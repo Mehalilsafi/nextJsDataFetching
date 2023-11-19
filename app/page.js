@@ -5,10 +5,10 @@ import Link  from 'next/link'
 export default function Home() {
   return (
 
-   <main> 
-     <Link href="./users"> click me to users</Link>
+   <main className='bg-[#f9f5f5] h-4/5 '> 
+     <Link href="./users" > List of users </Link>
      <br></br>
-     <Link href="./dogs"> click to take me to the dge </Link>
+  
    </main>
   )
 }
